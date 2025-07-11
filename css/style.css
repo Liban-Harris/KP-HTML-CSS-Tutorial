@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #1B281B;
@@ -31,4 +35,7 @@ h3 {
 footer {
     color: #FFF;
     background-color: #22466C;
-}
+    text-align: center;
+    padding: 25px;
+    border: 10px solid #6E84CF ;
+} 
