@@ -18,7 +18,7 @@ header {
 
 h1 {
     font-size: 7.5rem;
-    color: #4676a9;
+    /* color: #4676a9; */
     text-align: center;
     line-height: 1.1;
 }
@@ -32,10 +32,30 @@ h3 {
     font-size: 1.75rem;
 }
 
-footer {
+a {
+    color: #2B930B;
+}
+
+a:hover, 
+a:focus-visible {
+    color: #93c784;
+}
+
+a:active {
+    color: black;
+}
+
+.teal-text {
+    color: #087A98;
+}
+
+.teal-bg {
+    padding: 20px;
+    background-color: #087A98;
+    border: solid 10px #0B4A5A ;
     color: #FFF;
-    background-color: #22466C;
+}
+
+footer {
     text-align: center;
-    padding: 25px;
-    border: 10px solid #6E84CF ;
 } 
