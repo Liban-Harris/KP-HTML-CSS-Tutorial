@@ -56,6 +56,18 @@ a:active {
     color: #FFF;
 }
 
+.climber-bg {
+    color: #FFF;
+    background-image: url("../images/simple-steps.jpg");
+    padding: 25px;
+    border: solid 10px #0B4A5A;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height:auto; */
+    /* width: 50vh; */
+}
+
 footer {
     text-align: center;
 } 
