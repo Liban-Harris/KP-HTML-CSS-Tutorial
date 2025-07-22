@@ -45,6 +45,21 @@ a:active {
     color: black;
 }
 
+/* ul {
+    list-style-type: square;
+
+}
+
+ul li::marker {
+    content: "@";
+    color:red;
+} */
+
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
 .teal-text {
     color: #087A98;
 }
