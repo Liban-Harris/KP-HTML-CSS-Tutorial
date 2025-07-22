@@ -45,6 +45,11 @@ a:active {
     color: black;
 }
 
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
 /* ul {
     list-style-type: square;
 
