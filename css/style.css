@@ -12,10 +12,6 @@ section {
     margin-block: 75px;
 }
 
-header {
-    text-align: center;
-}
-
 h1 {
     font-size: 7.5rem;
     /* color: #4676a9; */
@@ -60,6 +56,31 @@ ul li::marker {
     color:red;
 } */
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.primary-navigation ul {
+    display: flex;
+    gap:20px;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    
+    align-items: center;
+    justify-content: center;
+}
+.primary-navigation a{
+    color: black;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.primary-navigation a:hover,
+.primary-navigation a:focus {   
+    color: #5F9A9F;
+}
+
 .wrapper {
     max-inline-size: 1000px;
     margin-inline: auto;
@@ -68,7 +89,6 @@ ul li::marker {
 .two-column-layout {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 1fr; */
     column-gap: 60px;
 }
 
