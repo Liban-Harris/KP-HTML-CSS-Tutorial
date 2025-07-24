@@ -13,10 +13,13 @@ section {
 }
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 5rem;
     /* color: #4676a9; */
     text-align: center;
     line-height: 1.1;
+    @media screen and (width > 650px) {
+        font-size: 7.5rem;
+    }
 }
 
 h2 {
@@ -88,9 +91,20 @@ header {
 
 .two-column-layout {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    /* align-items: center;
+    justify-content: center; */
+    /* grid-template-columns: 1fr; */
     column-gap: 60px;
+    @media screen and (width> 600px) {
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
+/* @media screen and (width> 600px) { // old way
+    .two-column-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+} */
 
 .teal-text {
     color: #087A98;
